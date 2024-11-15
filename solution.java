@@ -2,7 +2,7 @@
 import java.io.*;
 import java.util.*;
 import java.util.stream.*;
-
+// you can write to stdout for debugging purposes, e.g. System.out.println("this is a debug message"); 
 class solution {
     public static int TwoBreakDistance(List<List<Integer>> P, List<List<Integer>> Q) {
         List<Edge> PEdges = genomeToEdges(P);
