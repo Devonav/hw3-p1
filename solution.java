@@ -1,7 +1,5 @@
 // Please do not remove package imports because these are used by the autograder.
-import java.io.*;
 import java.util.*;
-import java.util.stream.*;
 // you can write to stdout for debugging purposes, e.g. System.out.println("this is a debug message"); 
 class solution {
     public static int TwoBreakDistance(List<List<Integer>> P, List<List<Integer>> Q) {
@@ -27,7 +25,7 @@ class solution {
         }
         return edges;
     }
-
+// you can write to stdout for debugging purposes, e.g. System.out.println("this is a debug message");
     private static int findCycles(List<Edge> edges) {
         Map<Integer, List<Integer>> adjList = new HashMap<>();
         for (Edge edge : edges) {
